@@ -1,0 +1,333 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cumilla Polytechnic Institute</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <style>
+    
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    /* Header */
+    .bgc{
+    background-color: #686536e1;
+  
+}
+.title{
+    text-shadow: 2px 2px 2px #6b3828;
+}
+
+    .header img {
+      border: 3px solid #fff;
+    }
+
+    .title {
+      margin: 0;
+      font-weight: 600;
+    }
+
+    /* Navbar */
+    .navbar-nav .nav-link {
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #0d6efd !important;
+      background-color: #f1f1f1;
+      border-radius: 5px;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+
+    .sidebar h4 {
+      background: #0d91fd;
+      color: white;
+      padding: 8px;
+      border-radius: 5px;
+      font-size: 18px;
+    }
+
+    .sidebar a {
+      color: #1c60c7;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      background: #2b323bfb;
+      color: #8fdf27de;
+      padding: 30px 0;
+    }
+
+    footer h4 {
+      color: #968e1d;
+      margin-bottom: 15px;
+    }
+
+    footer a {
+      color: #d600006e;
+      text-decoration: none;
+      transition: 0.3s;
+    }                       
+
+    footer a:hover {
+      color: #2eaaaaa2;
+    }
+
+    footer i {
+      font-size: 1.5rem;
+      margin-right: 10px;
+      transition: 0.3s;
+    }
+
+    footer i:hover {
+      color: #0dfd41dc;
+    }
+
+    /* Carousel height */
+    .carousel-item img {
+      height: 400px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header Start Here -->
+  <div class="container-fluid bgc">
+    <div class="row">
+        <div class="col-md-1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJKJS48M7wrntYVkXxVXcNZgoRgPJPqqQA9w&s" class="img-fluid rounded-pill" width="70" alt="">
+        </div>
+        <div class="col-md-11">
+           <h3 class="text-light title">Mehedi Hasan Musa</h3> 
+           <h3 class="text-light title">Roll: 875600</h3> 
+        </div>
+    </div>
+  </div>
+  <!-- Navber Start Here -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="javascript:void(0)"><img src="" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+             <img src="image/name logo.jpeg" class="img-fluid rounded-pill" width="40" alt="">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Contact us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Photo Gallary</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Carousel -->
+  <div id="demo" class="carousel slide mt-2 container" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/hayabusa.jpg" class="d-block w-100" alt="Campus">
+      </div>
+      <div class="carousel-item">
+        <img src="image/kawya.avif" class="d-block w-100" alt="Students">
+      </div>
+      <div class="carousel-item">
+        <img src="image/mt15.avif" class="d-block w-100" alt="Events">
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container my-4">
+    <div class="row g-3">
+      <div class="col-md-8">
+        <div class="p-3 bg-white rounded shadow-sm">
+          <h4 class="mb-3 text-primary">Welcome to Cumilla Polytechnic Institute</h4>
+          <p>
+            Cumilla Polytechnic Institute is one of the leading technical institutes in Bangladesh, located in the
+            historic city of Cumilla. Our mission is to provide quality technical education that empowers students to
+            become skilled professionals and innovators.
+          </p>
+          <p>
+            With experienced teachers, modern laboratories, and a beautiful green campus, CPI is committed to building a
+            brighter future through technology and innovation.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="sidebar text-center">
+          <h4>Owner</h4>
+          <img src="image/nij.jpg" class="img-fluid rounded" width="60%" alt="">
+          <p class="mt-2 mb-1 fw-semibold">Mehedi Hasan Musa</p>
+          <a href="#">View Profile</a>
+        </div>
+
+        <div class="sidebar text-center">
+          <h4>Friend</h4>
+          <img src="image/niloy.jpg" class="img-fluid rounded" width="60%" alt="">
+          <p class="mt-2 mb-1 fw-semibold">Sajid Islam niloy</p>
+          <a href="#">View Profile</a>
+        </div>
+
+        <div class="sidebar">
+          <h4>Google Map</h4>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1830.323283347116!2d91.13564893830254!3d23.43713115564288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37547e82f28ad7b3%3A0xbb462181ba463bc9!2sCumilla%20Polytechnic%20Institute%20(CPI)!5e0!3m2!1sen!2sbd!4v1760435303695!5m2!1sen!2sbd"
+            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+  <!-- Academic Calendar (Updated Google Calendar) -->
+<section class="sidebar card p-3 mb-4 shadow-sm">
+    <h4 class="card-header p_ple bg-warning text-dark">Academic Calendar</h4>
+    <div class="ratio ratio-4x3 card-body p-0">
+        <iframe 
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FDhaka&src=en.bangladesh%23holiday%40group.v.calendar.google.com&color=%230B8043&mode=MONTH"
+            style="border:0" 
+            width="100%" 
+            height="300" 
+            frameborder="0" 
+            scrolling="no"
+            title="Updated Academic Calendar">
+        </iframe>
+    </div>
+</section>
+
+                <!-- National Anthem -->
+                <section class="sidebar card p-3 mb-4 shadow-sm">
+                    <h4 class="card-header p_ple bg-danger text-white">National Anthem</h4>
+                    <div class="card-body text-center">
+                        <p class="fw-bold mb-2">Amar Sonar Bangla</p>
+                        <audio controls class="w-100">
+                            <source src="image/bd_national_anthem.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </section>
+        <div class="sidebar">
+          <h4>Important Links</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">BTEB</a></li>
+            <li><a href="#">DTE</a></li>
+            <li><a href="#">Ministry of Education</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!-- Footer (Glow Version) -->
+<footer class="footer-glow mt-5">
+  <div class="container py-5">
+    <div class="row gy-4 text-center text-md-start">
+      
+      <!-- Institute Info -->
+      <div class="col-md-3">
+        <h4 class="fw-bold text-light mb-3">Cumilla Polytechnic Institute</h4>
+        <p class="small mb-1 text-secondary">© 2025 All Rights Reserved.</p>
+        <p class="small mb-0 text-secondary">Designed by <span class="text-info">Mehedi</span></p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-3">
+        <h5 class="fw-semibold mb-3 text-light glow-title">Quick Links</h5>
+        <ul class="list-unstyled footer-links">
+          <li><a href="#"><i class="bi bi-house-door"></i> Home</a></li>
+          <li><a href="#"><i class="bi bi-info-circle"></i> About</a></li>
+          <li><a href="#"><i class="bi bi-telephone"></i> Contact</a></li>
+          <li><a href="#"><i class="bi bi-images"></i> Gallery</a></li>
+        </ul>
+      </div>
+
+      <!-- Address -->
+      <div class="col-md-3">
+        <h5 class="fw-semibold mb-3 text-light glow-title">Address</h5>
+        <p><i class="bi bi-geo-alt-fill text-info"></i> Kotbari, Cumilla, Bangladesh</p>
+        <p><i class="bi bi-envelope text-info"></i> info@cpi.edu.bd</p>
+        <p><i class="bi bi-telephone-forward text-info"></i> +8801XXXXXXXXX</p>
+      </div>
+
+     <!-- Social -->
+<div class="col-md-3">
+  <h5 class="fw-semibold mb-3 text-light glow-title">Follow Us</h5>
+  <div class="d-flex justify-content-center justify-content-md-start gap-3">
+    <a href="https://www.facebook.com/share/1BXWZcrFAu/" target="_blank" class="social-icon" title="Facebook">
+      <i class="bi bi-facebook"></i>
+    </a>
+    <a href="https://twitter.com" target="_blank" class="social-icon" title="Twitter / X">
+      <i class="bi bi-twitter-x"></i>
+    </a>
+    <a href="https://www.youtube.com" target="_blank" class="social-icon" title="YouTube">
+      <i class="bi bi-youtube"></i>
+    </a>
+    <a href="https://www.instagram.com/mehedihasanmusa38?igsh=MTk5OWZzZzZkYmYwYg==" target="_blank" class="social-icon" title="Instagram">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="https://www.tiktok.com/@mehedihasanmusa18?_t=ZS-90iBcS3aTbO&_r=1" target="_blank" class="social-icon" title="TikTok">
+      <i class="bi bi-tiktok"></i>
+    </a>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
